@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first__block {
+    padding-top: 40px;
+    padding-bottom: 96px;
+}
+
+.first__block__content {
+    margin-top: 84px;
+    margin-bottom: 259px;
+}
+
+.title {
+    margin-bottom: 17px;
+}
+
+.first__block__actions {
+    margin-top: 37px;
+}
