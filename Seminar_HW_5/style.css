@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #020A18;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1147px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    opacity: 0.7;
+}
+
+.header {
+    margin-bottom: 160px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-link {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding: 40px 16px;
+}
+
+.menu-link:hover {
+    color: #3A68B8;
+}
+
+.first-block {
+    margin-bottom: 200px;
+}
+
+.main-left, .main-right {
+    width: 47%;
+}
+
+.main-right {
+    display: flex;
+    justify-content: end;
+}
+
+.subtitle {
+    color: var(--3-a-68-b-8, #3A68B8);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 28.8px */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+    /* 71.5px */
+    margin-bottom: 40px;
+}
+
+.top-paragraph {
+
+    margin-bottom: 40px;
+}
+
+.first-block-links {
+    margin-bottom: 50px;
+}
+
+.main-link {
+    display: inline;
+    border-radius: 5px;
+    background: var(--3-a-68-b-8, #3A68B8);
+    padding: 1rem 2rem;
+    color: var(--ffffff, #FFF);
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.logo {
+    margin-bottom: 256px;
+}
+
+.second-block {
+    margin-bottom: 264px;
+}
+
+.second-left, .second-right {
+    width: 47%;
+    display: flex;
+}
+
+.second-left {
+    justify-content: start;
+}
+
+.second-right {
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.header-title-2 {
+    color: var(--ffffff, #FFF);
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 52px */
+    margin-bottom: 30px;
+}
+
+.second-paragraph {
+    margin-bottom: 50px;
+}
+
+.third-block {
+    margin-bottom: 257px;
+}
+
+.grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 362px);
+    justify-content: center;
+}
+
+.third-block-card {
+    border-radius: 10px;
+    background: #132035;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+.item-big {
+    grid-column: span 2;
+    grid-row: span 2;
+    gap: 60px;
+}
+
+.header-title-4 {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    /* 31.25px */
+    opacity: 1;
+}
+
+.third-block-desc {
+    color: var(--ffffff, #FFF);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    /* 25.6px */
+}
+
+.forth-block {
+    margin-bottom: 221px;
+}
+
+.forth-right {
+    margin-left: 25px;
+}
+
+.forth-block-paragraph {
+    margin-top: 20px;
+}
+
+.footer {
+    background: no-repeat url("/img/footer_background.svg");
+    background-size: cover;
+}
+
+.header-title-5 {
+    color: var(--ffffff, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+    margin-bottom: 33px;
+}
+
+.footer-info-block {
+    display: grid;
+    gap: 24px;
+    margin-bottom: 46px;
+}
+
+.contacts {
+    color: var(--ffffff, #FFF);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer-text {
+    color: var(--ffffff, #FFF);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    opacity: 0.6;
+}
